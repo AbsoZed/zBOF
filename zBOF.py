@@ -10,6 +10,13 @@
 #  STEP 3: Generate shellcode with MSFVenom using above discovered information, place where notated below.
 #
 #  STEP 4: Attempt exploitation! You may need NOPs or a SUB ESP. Use those flags accordingly with --nops <number of NOPS> or --sub
+# 
+# NOTE FOR THE UNINITIATED: 
+#  
+# The socket.send() actions are currently sending what would exploit SLMail. Different applications have
+# different vulnerable commands - it may be a GET request overflow, or some other command that is sent before
+# the buffer. It's up to you to edited that into this code correctly, as it can't be accounted for in code, because
+# the vulnerabilities of disparate applications cannot be accounted for.
 
 
 import time
