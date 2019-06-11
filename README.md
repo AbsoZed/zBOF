@@ -1,7 +1,7 @@
 # zBOF.py
 
 A modular tool for fuzzing and exploiting buffer overflow vulnerabilities. Created for the OSCP, but obviously broadly applicable to any stack-based buffer overflow. Enjoy!
-
+`
 usage: zBOF.py [-h] [--target TARGET] [--port PORT] [--count COUNT]
                [--pointer POINTER] [--fuzz] [--sub] [--nops NOPS] [--exploit]
                [--badchars]
@@ -17,3 +17,4 @@ optional arguments:
   --nops NOPS        Number of NOPs to prepend to buffer.
   --exploit          Actively send shellcode to host.
   --badchars         Send full list of hex to host to check badchars.
+`
