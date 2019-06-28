@@ -15,7 +15,7 @@
 #  
 # The socket.send() actions are currently sending what would exploit SLMail. Different applications have
 # different vulnerable commands - it may be a GET request overflow, or some other command that is sent before
-# the buffer. It's up to you to edited that into this code correctly, as it can't be accounted for in code, because
+# the buffer. It's up to you to edit that into this code correctly, as it can't be accounted for in code, because
 # the vulnerabilities of disparate applications cannot be accounted for.
 
 import time
