@@ -2,6 +2,9 @@
 
 A modular tool for fuzzing and exploiting buffer overflow vulnerabilities. Created for the OSCP, but obviously broadly applicable to any stack-based buffer overflow. Enjoy!
 
+![](running.gif)
+
+
     usage: zBOF.py [-h] [--target TARGET] [--port PORT] [--count COUNT]
                    [--pointer POINTER] [--fuzz] [--sub] [--nops NOPS] [--exploit]
                    [--badchars]
